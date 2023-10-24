@@ -92,7 +92,7 @@ Examples:
 Recurring digits:
 
     Recurring digits at the end of a fractional part will be enclosed by
-    "[" and "]" in both string and tuple representation. 
+    "[" and "]" in both string and tuple representation.
     This behavior can be turned off by setting the recurring argument of base
     or BaseConverter object to False.
 
@@ -115,7 +115,7 @@ Max fractional depth:
 
 
 # Greatest common denominator is used when converting fractions.
-from fractions import gcd
+from math import gcd
 
 
 class BaseConverter:

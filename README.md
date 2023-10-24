@@ -28,7 +28,7 @@ contact@joshuadeakin.com
 
 Install:
 
-    pip install baseconvert
+    pip install git+https://github.com/COOLIRON2311/baseconvert
 
 Uninstall:
 
@@ -109,7 +109,7 @@ String digits (after z the values are in ascending Unicode):
 ### Recurring digits
 
 Recurring digits at the end of a fractional part will be enclosed by
-"[" and "]" in both string and tuple representation. 
+"[" and "]" in both string and tuple representation.
 This behavior can be turned off by setting the recurring argument of base or
 BaseConverter object to False.
 

@@ -29,7 +29,7 @@ Install:
 
 ::
 
-    pip install baseconvert
+    pip install git+https://github.com/COOLIRON2311/baseconvert
 
 Uninstall:
 
